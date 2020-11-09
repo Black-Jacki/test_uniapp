@@ -1,13 +1,13 @@
 <template>
-	<view class="horizontal"></view>
+  <view class="horizontal"></view>
 </template>
 
 <script>
-	export default {
-		data() {
-			return {};
-		},
-	};
+  export default {
+    data() {
+      return {};
+    },
+  };
 </script>
 
 <style lang="scss" scoped>
