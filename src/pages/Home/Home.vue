@@ -15,7 +15,7 @@
       </view>
       <view class="home-tab-content">
         <view v-if="current === 0">
-          <Home-recomment></Home-recomment>
+          <Home-recommend></Home-recommend>
         </view>
         <view v-if="current === 1">
           <Home-category></Home-category>
@@ -35,7 +35,7 @@
   import { homeAlbum } from "../../component/Home-album/Home-album";
   import { homeCategory } from "../../component/Home-category/Home-category";
   import { homeNew } from "../../component/Home-new/Home-new";
-  import { homeRecomment } from "../../component/Home-recomment/Home-recomment";
+  import { homeRecommend } from "../../component/Home-recommend/Home-recommend";
   import { uniSegmentedControl } from "@dcloudio/uni-ui";
   export default {
     data() {
@@ -53,7 +53,7 @@
       homeAlbum,
       homeCategory,
       homeNew,
-      homeRecomment,
+      homeRecommend,
       uniSegmentedControl,
     },
     methods: {
